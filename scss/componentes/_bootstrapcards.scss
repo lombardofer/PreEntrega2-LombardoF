@@ -1,0 +1,22 @@
+.card {
+    padding: 20px;
+    margin: 10px;
+    .card-title {
+        font-size: 30px !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        color:$font-black !important;
+        .card-text {
+            font-size: 25px !important;
+            font-weight: 300 !important;
+            text-align: center !important;
+            color:$font-black !important;
+            .card-footer {
+                font-size: 30px !important;
+                font-weight: 600 !important;
+                text-align: center !important;
+                color:$font-black !important;
+            }
+        }
+    }
+}

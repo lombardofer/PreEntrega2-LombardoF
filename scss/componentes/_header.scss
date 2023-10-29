@@ -1,0 +1,26 @@
+header {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, #f2fcf175, #bec5a0f6), url(../imagenes/bancoimagen.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    .titulos-header{
+        display: flex;
+        height: 430px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        h1{
+            font-size: 50px;
+            color: $font-black;
+            h2{
+                font-size: 30px;
+                font-weight: 300;
+                color: $font-black;
+            }
+        }
+    }
+}

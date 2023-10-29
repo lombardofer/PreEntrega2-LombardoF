@@ -1,0 +1,18 @@
+nav {
+    padding: 30px 50px 30px 0;
+    text-align: center !important;
+    .navbar {
+        background-color: #9ddd7286 !important;
+        border: none !important;
+        border-width:0!important;
+    }
+    a {
+        color:$font-black;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+        &:hover{
+        text-decoration: underline;
+        }
+    }
+}

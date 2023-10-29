@@ -1,262 +1,217 @@
-
-/* GENERAL */
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.iniciar {
+  width: 400px;
+  margin: auto;
+  color: black;
+  padding: 25px 25px;
+  text-align: center !important;
+  align-content: center !important;
+}
+.iniciar h1 {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
+  color: black;
+}
+.iniciar h1 p {
+  height: 40px;
+  text-align: center;
+  color: black;
 }
 
-body {
-    background-color: #9ddd7286 !important;
+.inicios {
+  border: black 1px solid;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 11px 10px;
+  font-weight: bold;
 }
 
-.contenedor {
-    padding: 60px 0;
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    overflow: hidden;
+.advertencia {
+  background-color: rgb(145, 218, 211) !important;
+  width: 100% !important;
+  align-content: center !important;
+  text-align: center !important;
 }
 
-/* BARRA DE NAVEGACIÓN */
-
-nav{
-    padding: 30px 50px 30px 0;
-    text-align: center !important;
-
+nav {
+  padding: 30px 50px 30px 0;
+  text-align: center !important;
+}
+nav .navbar {
+  background-color: rgba(157, 221, 114, 0.5254901961) !important;
+  border: none !important;
+  border-width: 0 !important;
+}
+nav a {
+  color: black;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+nav a:hover {
+  text-decoration: underline;
 }
 
-.navbar {
-    background-color: #9ddd7286 !important;
-    border: none !important;
-    border-width:0!important;
+.card {
+  padding: 20px;
+  margin: 10px;
+}
+.card .card-title {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  color: black !important;
+}
+.card .card-title .card-text {
+  font-size: 25px !important;
+  font-weight: 300 !important;
+  text-align: center !important;
+  color: black !important;
+}
+.card .card-title .card-text .card-footer {
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  text-align: center !important;
+  color: black !important;
 }
 
-nav a{
-    color:#000000;
-    font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
+main .confianza {
+  padding: 30px 0 60px 0;
 }
-
-nav a:hover{
-    text-decoration: underline;
+main .confianza .contenedor-confianza {
+  display: flex;
+  justify-content: space-evenly;
 }
-
-
-/* HEADER */
-
-.titulo {
-    color: #000000;
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 30px;
+main .confianza .contenedor-confianza .imagen-confianza {
+  width: 40%;
 }
-
-.titulo2 {
-    color: #000000;
-    font-size: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
+main .confianza .contenedor-confianza .imagen-confianza .contenido-confianza {
+  width: 48%;
+}
+main .confianza .contenedor-confianza .imagen-confianza .contenido-confianza h3 {
+  margin-bottom: 15px;
+}
+main .confianza .contenedor-confianza .imagen-confianza .contenido-confianza h3 span {
+  color: black;
+  display: inline-block;
+  padding: 2px;
+  margin-right: 5px;
+}
+main .confianza .contenedor-confianza .imagen-confianza .contenido-confianza h3 span p {
+  padding: 0px 0px 30px 15px;
+  font-weight: 300;
+  text-align: justify;
 }
 
 header {
-    width: 100%;
-    height: 400px;
-    background: linear-gradient(to right, #f2fcf175, #bec5a0f6), url(../imagenes/bancoimagen.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    position: relative;
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(to right, rgba(242, 252, 241, 0.4588235294), rgba(190, 197, 160, 0.9647058824)), url(../imagenes/bancoimagen.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+header .titulos-header {
+  display: flex;
+  height: 430px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+header .titulos-header h1 {
+  font-size: 50px;
+  color: black;
+}
+header .titulos-header h1 h2 {
+  font-size: 30px;
+  font-weight: 300;
+  color: black;
 }
 
-header .titulos-header{
-    display: flex;
-    height: 430px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.titulos-header h1{
-    font-size: 50px;
-    color:#000000;
+body {
+  background: linear-gradient(to right, rgba(142, 242, 119, 0.4901960784), #a9f088) !important;
 }
 
-.titulos-header h2{
-    font-size: 30px;
-    font-weight: 300;
-    color:#000000;
+.contenedor {
+  padding: 60px 0;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden;
 }
 
-/* MAIN */
-
-main .confianza{
-    padding: 30px 0 60px 0;
-}
-.contenedor-confianza{
-    display: flex;
-    justify-content: space-evenly;
+.titulo {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.imagen-confianza{
-    width: 40%;
+.titulo2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 
-.confianza .contenido-confianza{
-    width: 48%;
+.mision {
+  width: 100%;
+  height: 170px;
+  background: white;
+  margin-bottom: 30px;
+}
+.mision .botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.mision .botones i {
+  color: #ffc371;
 }
 
-.contenido-confianza h3{
-    margin-bottom: 15px;
+.form-control::placeholder {
+  font-size: 0.95rem;
+  color: #aaa;
+  font-style: italic;
 }
-
-.contenido-confianza h3 span{
-    color: #000000;
-    display: inline-block;
-    padding: 2px;
-    margin-right: 5px;
+.form-control::placeholder .form-control.shadow-0:focus {
+  box-shadow: none;
 }
-
-.contenido-confianza p{
-    padding: 0px 0px 30px 15px;
-    font-weight: 300;
-    text-align: justify;
+.form-control::placeholder .form-control.shadow-0:focus #button-addon1 {
+  color: #ffc371;
 }
-
-/* MISION CON BOTONES INFORMATIVOS */
-
-.mision{
-    width: 100%;
-    height: 170px;
-    background: #ffffff;
-    margin-bottom: 50px;
-}
-
-.botones {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-bottom: 50px;
-}
-
-i {
-    color: #ffc371;
-  }
-  
-  .form-control::placeholder {
-    font-size: 0.95rem;
-    color: #aaa;
-    font-style: italic;
-  }
-  
-  .form-control.shadow-0:focus {
-    box-shadow: none;
-  }
-
-#button-addon1 {
-    color: #ffc371;
-}
-i {
-    color: #ffc371;
-}
-
-.redondo {
-
-    border-radius: 20px !important;
-    margin-top: 30px !important;
-    border: #000000;
-    
-  
+.form-control::placeholder .form-control.shadow-0:focus i {
+  color: #ffc371;
 }
 
 .agradecimieto {
-    background-color: rgb(145, 218, 211) !important;
-    padding: 20px;
-    background-color: white;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+  background-color: rgb(145, 218, 211) !important;
+  padding: 20px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .carrusel {
-
-    margin-top: 100px !important;
+  margin-top: 100px !important;
 }
 
 .tabla {
-    
-    background-color: aliceblue !important;
+  background-color: white !important;
 }
 
-.iniciar{
-    width: 400px;
-    margin: auto;
-    color: black;
-    padding: 25px 25px;
-    text-align: center !important;
-    align-content: center !important;
-  }
-  
-  .iniciar h1 {
-    margin: 0;
-    text-align: center;
-    margin-bottom: 30px;
-    color: black;
-  }
-  
-  .iniciar p { 
-    height: 40px;
-    text-align: center;
-    color: black;
-  }
-  
-  .inicios {
-    border: black 1px solid;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 11px 10px;
-    font-weight: bold;
-  }
-
-  .advertencia {
-    background-color: rgb(145, 218, 211) !important;
-    width: 100% !important;
-    align-content: center !important;
-    text-align: center !important;
-  }
-
-  /* BOOSTRAP */
-
-  .card {
-    padding: 20px;
-    margin: 10px;
-
-}
-
-.card-footer {
-    font-size: 30px !important;
-    font-weight: 600 !important;
-    text-align: center !important;
-    color:#000000 !important;
-}
-
-.card-title {
-    font-size: 30px !important;
-    font-weight: 600 !important;
-    text-align: center !important;
-    color:#000000 !important;
-}
-
-.card-text {
-    font-size: 25px !important;
-    font-weight: 300 !important;
-    text-align: center !important;
-    color:#000000 !important;
-}
+/*# sourceMappingURL=style.css.map */
