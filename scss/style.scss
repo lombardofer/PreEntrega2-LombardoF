@@ -9,6 +9,9 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    a {
+        color: rgb(65, 233, 65) !important;
+    }
 }
 
 body {
@@ -91,3 +94,44 @@ body {
     background-color: $bg-white !important;
 }
 
+.staff{
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.staffimg {
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.staffimg > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.stafflist{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:900px){
+
+    .staffimg {
+        width: 44%;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .staffimg {
+        width: 95%;
+    }
+
+}
